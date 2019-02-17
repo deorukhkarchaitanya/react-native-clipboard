@@ -1,0 +1,5 @@
+rootProject.name = 'ClipboardExample'
+include ':react-native-clipboard'
+project(':react-native-clipboard').projectDir = new File(rootProject.projectDir, '../../android')
+
+include ':app'
